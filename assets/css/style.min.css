@@ -24,7 +24,7 @@
 #aside #nav li {
   display: inline;
   border: none;
-  margin: 0 10px 0 0;
+  margin: 0px 10px 0 0;
 }
 #aside #nav li:last-child {
   border: none;
@@ -36,6 +36,7 @@
 #aside #nav li a {
   display: inline-block;
   padding: 0 10px 0 0;
+  margin-top: 10px;
   font-weight: bold;
   color: inherit;
 }
@@ -73,6 +74,11 @@ a {
 }
 .text-center {
   text-align: center;
+}
+article img {
+  border: none;
+  max-width: 100%;
+  position: relative;
 }
 hr {
   border: none;
