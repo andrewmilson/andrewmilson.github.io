@@ -17,15 +17,6 @@ module.exports = function (grunt) {
         ' * Copyright <%= pkg.copyright %>. <%= pkg.license %> licensed.\n' +
         ' */\n'
     },
-    jekyll: {
-      server: {
-        auto: true,
-        server: true,
-        server_port: 4000,
-        exclude: ['node_modules'],
-        dest: './_site'
-      }
-    },
     stylus: {
       compile: {
         options: {
@@ -40,6 +31,19 @@ module.exports = function (grunt) {
     open: {
       server: {
         path: 'http://localhost:4000'
+      }
+    },
+    concurrent: {
+      target1: {
+        tasks: ['exec:serve', 'watch'],
+        options: {
+            logConcurrentOutput: true
+        }
+      }
+    },
+    exec: {
+      serve: {
+        cmd: 'jekyll serve --watch'
       }
     },
     watch: {
@@ -62,6 +66,5 @@ module.exports = function (grunt) {
   });
 
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
-
-  grunt.registerTask('default', ['stylus', "jekyll:server", "watch", "open"]);
+  grunt.registerTask('default', ['stylus', 'concurrent:target1', 'open']);
 };
