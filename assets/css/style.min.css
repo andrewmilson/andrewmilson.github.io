@@ -1,0 +1,176 @@
+/*!
+ * Andrew Milson
+ * 
+ * 
+ * @author Andrew Milson
+ * @version 0.0.0
+ * Copyright 2014. MIT licensed.
+ */
+#aside {
+  width: 20%;
+  background: #4b7890;
+  color: #172323;
+  padding: 20px;
+  float: left;
+  height: 100%;
+  border-right: #436b80 5px solid;
+}
+#aside #nav {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+#aside #nav li {
+  display: inline;
+  border: none;
+  margin: 0 10px 0 0;
+}
+#aside #nav li:last-child {
+  border: none;
+  margin: 0;
+}
+#aside #nav li:last-child a {
+  padding: 0;
+}
+#aside #nav li a {
+  display: inline-block;
+  padding: 0 10px 0 0;
+  font-weight: bold;
+  color: inherit;
+}
+#aside #sexy-beast {
+  width: 60%;
+  display: block;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: #172323 solid 5px;
+  margin: 0 auto 0 auto;
+}
+#article {
+  padding: 0 30px;
+  width: 80%;
+  background: #eee;
+  float: right;
+  height: 100%;
+  overflow: scroll;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: "Droid Sans";
+}
+* {
+  box-sizing: border-box;
+  color: #172323;
+}
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+.text-center {
+  text-align: center;
+}
+hr {
+  border: none;
+  border-bottom: dotted 2px #172323;
+  padding: 0;
+  margin: 20px 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.1;
+  color: inherit;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-weight: normal;
+  line-height: 1;
+}
+h1,
+h2,
+h3 {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 12px;
+}
+p {
+  margin: 0 0 10px;
+}
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 0 0 0 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border-bottom: rgba(20,20,20,0.15) 5px solid;
+}
+.btn.default {
+  color: #333;
+  background-color: #bbb;
+}
+.btn.primary {
+  color: #e9e9e9;
+  background-color: #4b7890;
+}
+.btn.danger {
+  color: #333;
+  background-color: #fbca54;
+}
+.btn.warning {
+  color: #333;
+  background-color: #fc575e;
+}
+.btn.success {
+  color: #333;
+  background-color: #9cca68;
+}
+.btn.info {
+  color: #333;
+  background-color: #80ceff;
+}
+.btn.dark {
+  color: #e9e9e9;
+  background-color: #3e5c6d;
+}
+#article p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}

@@ -1,0 +1,7 @@
+# Site settings
+title: Andrew Milson's blog
+description: "This is the blog and playground of Andrew Milson."
+url: "http://andrewmilson.com"
+exclude: ['README.md', 'source', 'node_modules', 'package.json', 'Gruntfile.js', '*.command']
+markdown: kramdown
+permalink: pretty

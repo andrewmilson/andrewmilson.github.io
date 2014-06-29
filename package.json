@@ -1,0 +1,17 @@
+{
+  "name": "andrewmilson",
+  "version": "0.0.0",
+  "homepage": "http://andrewmilson.com",
+  "copyright": "2014",
+  "description": "Andrew Milson blog",
+  "author": "Andrew Milson",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-jekyll": "^0.4.2",
+    "grunt-contrib-stylus": "^0.17.0",
+    "matchdep": "^0.3.0",
+    "grunt-open": "^0.2.3",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
