@@ -34,9 +34,12 @@ h1, h2, h3, h4, h5, h6
   line-height 1.1
   color inherit
 
+  a
+    color inherit
+
   small
-    font-weight normal
     line-height 1
+    font-size 0.5em
 
 h1, h2, h3
   margin-top 35px
@@ -62,6 +65,36 @@ h6
 
 p
   margin 0 0 10px
+
+.tag
+  background #4b7890
+  display inline-block
+  padding 8px
+  position relative
+
+  // &.tag-javascript
+  //   color #e9e9e9
+  //   background-color #4B7890
+
+  &.tag-css
+    color #333
+    background-color #fbca54
+
+  &.tag-javascript
+    color #333
+    background-color #fc575e
+
+  &.tag-project
+    color #333
+    background-color #9CCA68
+
+  // &.tag-javascript
+  //   color #333
+  //   background-color #80ceff
+  //
+  // &.tag-javascript
+  //   color #e9e9e9
+  //   background-color #3e5c6d
 
 .btn
   display inline-block
@@ -342,6 +375,7 @@ p
 
 
 #article
+
   p
     font-size 1.2em
     line-height 1.5
