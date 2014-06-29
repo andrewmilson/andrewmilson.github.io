@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% if site.posts.size != 0 %}
   <ul id="post-list">
     {% for post in site.posts %}
       <li>
@@ -13,5 +14,11 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+{% else %}
+  <h1>Hey!</h1>
+  <p>
+    I only just created this website. There are no articles yet but that should change shortly ;).<!--  I am sorry for making you come here for no reason. This is my new game Protect Paigridge. Hope it cheers you up! -->
+  </p>
+{% endif %}
 
 <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
