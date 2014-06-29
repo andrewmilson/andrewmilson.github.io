@@ -1,9 +1,11 @@
 #aside
-  width 20%
   background #4B7890
+  position fixed
+  overflow scroll
+  top 0
+  left 0
   color #172323
   padding 20px
-  float left
   height 100%
   border-right #436b80 5px solid
 
@@ -34,7 +36,7 @@
 
 
   #sexy-beast
-    width 60%
+    width 140px
     display block
     border-radius 50%
     box-sizing border-box
@@ -44,8 +46,10 @@
 
 #article
   padding 0 30px
-  width 80%
-  background #eee
   float right
   height 100%
-  overflow scroll
+
+@media (max-width: 992px)
+  #aside
+    position static
+    height auto
