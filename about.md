@@ -13,9 +13,9 @@ I enjoy spending my days programming and longboarding. I mainly do web developme
 
 ## Projects ##
 
-#### Complete ####
+### Complete ###
 + <a href="http://andrewmilson.com/shifty-spritz/" target="_blank">Shifty Spritz</a> is a Spritz-type speed reading extension for Chrome and Firefox
 
-#### Being Created ####
+### Being Created ###
 + Swag Snips is going to be a web app where developers can submit swag snippets of code to show off and share with the community.
 + <a href="http://andrewmilson.com/Protect-Paigridge/" target="_blank">Protect Paigridge</a> is a game I am developing for Android, IOS and web. The main character is a Dugong
