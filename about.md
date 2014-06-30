@@ -10,3 +10,14 @@ Hi I am Andrew! I'm pretty chill. I am currently hanging out in New Zealand. It 
 __Picture of me ready to enter "hermit mode"__
 
 I enjoy spending my days programming and longboarding. I mainly do web development but I might make the occasional mobile app. I prefer front-end to  In the future I hope to do computer science at university and then get a job at some swagger company in the silicon valley. Google here I come!!!
+
+## Projects ##
+
+#### Complete ####
++ Shifty Spritz
++ Green
++ Blue
+
+#### Being Created ####
++ <a href="http://andrewmilson.com/Protect-Paigridge/" target="_blank">Protect Paigridge is a game I am developing for Android, IOS and web. The main character is a Dugong
++ Swag Snips is going to be a web app where developers can submit swag snippets of code to show off and share with the community.
