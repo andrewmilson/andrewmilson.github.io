@@ -4,4 +4,4 @@ title: My Goals
 permalink: /goals/
 ---
 
-this is the goals page. Hope you enjoy
+Sorry but there are no goals here yet. But there will be soon!
