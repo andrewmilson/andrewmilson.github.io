@@ -99,6 +99,10 @@ article img {
   max-width: 100%;
   position: relative;
 }
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
 hr {
   border: none;
   border-bottom: dotted 2px #172323;
@@ -477,7 +481,8 @@ p {
     width: 8.33333333%;
   }
 }
-#article p {
+#article p,
+#article li {
   font-size: 1.2em;
   line-height: 1.5;
 }
