@@ -9,6 +9,4 @@ Hi I am Andrew! I'm pretty chill. I am currently hanging out in New Zealand. It 
 ![Picture of me ready to enter "hermit mode"](images/mower-and-i.jpg)
 __Picture of me ready to enter "hermit mode"__
 
-i was told not to this should auto save
-
-I enjoy spending my days programming and longboarding. In the future I hope to do computer science at university and then get a job at some swagger company in the silicon valley. Google here I come!!!
+I enjoy spending my days programming and longboarding. I mainly do web development but I might make the occasional mobile app. I prefer front-end to  In the future I hope to do computer science at university and then get a job at some swagger company in the silicon valley. Google here I come!!!
