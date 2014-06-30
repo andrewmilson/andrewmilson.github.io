@@ -97,6 +97,7 @@ a {
 article img {
   border: none;
   max-width: 100%;
+  display: block;
   position: relative;
 }
 ul {
