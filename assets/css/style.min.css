@@ -60,6 +60,16 @@
 #article {
   padding: 0 35px 20px 35px;
 }
+#article #social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#article #social li {
+  display: inline-block;
+  margin: 0;
+  paddin: 0;
+}
 .tag-list {
   padding: 0;
   margin: 0;
@@ -96,6 +106,10 @@ html {
 a {
   color: #428bca;
   text-decoration: none;
+}
+pre {
+  margin: 0;
+  padding: 0;
 }
 .text-center {
   text-align: center;
