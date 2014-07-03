@@ -2,6 +2,6 @@
 title: Andrew Milson
 url: http://andrewmilson.com
 exclude: ['README.md', 'source', 'node_modules', 'package.json', 'Gruntfile.js', '*.command']
-markdown: kramdown
-permalink: pretty
-highlighter: true
+markdown: rdiscount
+permalink: /:year/:title
+pygments: true
