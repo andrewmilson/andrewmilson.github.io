@@ -26,6 +26,11 @@ module.exports = function (grunt) {
         }
       }
     },
+    clean: {
+      css: {
+        src: ['<%= my_project.assets %>/css/*.css']
+      }
+    },
     open: {
       server: {
         path: 'http://localhost:4000'
@@ -57,7 +62,7 @@ module.exports = function (grunt) {
     watch: {
       stylus: {
         files: '<%= my_project.src %>/css/**/*.styl',
-        tasks: ['stylus', 'cssmin']
+        tasks: ["clean:css", 'stylus', 'cssmin']
       },
       livereload: {
         options: {
@@ -76,5 +81,5 @@ module.exports = function (grunt) {
   grunt.registerTask("build", ["stylus"])
 
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
-  grunt.registerTask('default', ['stylus', 'cssmin', 'concurrent:target1', 'open']);
+  grunt.registerTask('default', ['clean:css', 'stylus', 'cssmin', 'concurrent:target1', 'open']);
 };
