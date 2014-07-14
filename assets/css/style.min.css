@@ -52,15 +52,8 @@
 #article {
   padding: 0 35px 20px 35px;
 }
-#article #social {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-#article #social li {
-  display: inline-block;
-  margin: 0;
-  paddin: 0;
+#disqus_thread {
+  margin-top: 30px;
 }
 .tag-list {
   padding: 0;
