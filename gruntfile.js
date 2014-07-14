@@ -28,7 +28,7 @@ module.exports = function (grunt) {
     },
     clean: {
       css: {
-        src: ['<%= my_project.assets %>/css/*.css']
+        src: ['<%= my_project.assets %>/css/style.min.css', '<%= my_project.assets %>/css/main.min.css']
       }
     },
     open: {
