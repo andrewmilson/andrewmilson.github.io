@@ -17,4 +17,4 @@ I enjoy spending my days programming and longboarding. I mainly do web developme
 
 ## Projects <small>in progress</small> ##
 + Swag Snips is going to be a web app where developers can submit swag snippets of code to show off and share with the community.
-+ <a href="http://andrewmilson.com/protect-paigridge-roosh/" target="_blank">Protect Paigridge</a> is a game I am developing for Android, IOS and web. The main character is a Dugong
++ <a href="http://andrewmilson.com/protect-paigridge/" target="_blank">Protect Paigridge</a> is a game I am developing for Android, IOS and web. The main character is a Dugong
