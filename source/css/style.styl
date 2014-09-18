@@ -1,12 +1,10 @@
 #aside
   background #4B7890
-  position fixed
   top 0
   left 0
   color #172323
   padding 20px
-  height 100%
-  border-right #436b80 5px solid
+  height auto
 
   #nav
     list-style none
@@ -17,19 +15,16 @@
     li
       display inline
       border none
-      margin 0px 10px 0 0
+      margin 0 10px 0 0
+      border-right 2px solid #172323
 
       &:last-child
         border none
-        margin 0
-
-        a
-          padding 0
 
       a
         display inline-block
-        padding 0 10px 0 0
-        margin-top 10px
+        padding 0
+        margin 10px 10px 0 0
         font-weight bold
         color inherit
 
@@ -61,18 +56,3 @@
   padding 0
   margin 0
   list-style none
-
-@media (max-width: 767px)
-
-  #article
-    margin-top -20px
-    padding 0 15px 10px 15px
-
-@media (max-width: 991px)
-
-  #aside
-    position static
-    height auto
-
-    #sexy-beast
-      width 100px
