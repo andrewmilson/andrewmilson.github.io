@@ -3,10 +3,11 @@
   {% include head.html %}
   <body>
     {% include aside.html %}
-    <div class="col-md-6 col-md-offset-3">
-      <div id="article" class="col-xs-12 col-md-offset-1 col-md-10">
+    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+      <div id="article" class="col-md-12 col-lg-offset-1 col-lg-10">
         {{ content }}
       </div>
     </div>
+    {% include scripts.html %}
   </body>
 </html>
