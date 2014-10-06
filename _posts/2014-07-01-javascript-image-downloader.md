@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Simple Javascript Image Downloader With Callback
-tags: javascript
 ---
 
 Recently I created a native Javascript game called Protect Paigridge. I needed to load the characters images so I could use them in the game. So I came up with a nifty image downloading function with a callback that I thought the community might like.
