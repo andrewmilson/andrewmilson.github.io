@@ -92,8 +92,10 @@ article img {
   display: block;
   position: relative;
 }
-ul {
-  margin-top: 0;
+ul,
+ol {
+  margin-top: 10px;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 hr {
