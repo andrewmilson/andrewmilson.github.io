@@ -22,11 +22,9 @@ So After reading several Stackoverflow threads related to the topic I learnt peo
 })(window);
 {% endhighlight %}
 
-Once you have added this to a page of your choice a use case in you HTML follows below.
-
 ### Usage ###
 {% highlight html %}
 <a href="javascript:mailtoManager('example', 'example.com')">Contact</a>
 {% endhighlight %}
 
-This method makes it extremely difficult for those darn bots to find your email adress and would result in a mailto link opening in a new tab with guaranteed reliability in all browsers providing they had javascript enabled. Beautiful!
+This method makes it extremely difficult for those darn bots to find your email adress. The method would result in a mailto link opening in a new tab with guaranteed reliability in all browsers providing they had javascript enabled. Beautiful!
