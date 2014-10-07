@@ -16,8 +16,16 @@
       ga('send', 'pageview');
     </script>
     <script>
-      (function(e){e.malitoManager=function(e,t){var n=document.
-      createElement("a");n.href="mailto:fuck@thebots.com".replace("fuck",e)
-      .replace("thebots.com",t);n.target="_blank";n.click()}})(window)
+      (function(window) {
+        var link = document.createElement('a');
+        link.target = '_blank';
+
+        window.malitoManager = function(local, domain) {
+          link.href = 'mailto:truck@thebots.com'
+            .replace('truck', local)
+            .replace('thebots.com', domain);
+          link.click();
+        }
+      })(window);
     </script>
 </head>
