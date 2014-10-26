@@ -27,4 +27,4 @@ So After reading several Stackoverflow threads related to the topic I learnt peo
 <a href="javascript:mailtoManager('example', 'example.com')">Contact</a>
 {% endhighlight %}
 
-This method makes it extremely difficult for those darn bots to find your email adressgit status. Beautiful!
+This method makes it extremely difficult for those darn bots to find your email address. Beautiful!
