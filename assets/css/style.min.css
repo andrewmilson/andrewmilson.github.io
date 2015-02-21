@@ -15,7 +15,7 @@
   margin: 0 10px 0 0;
   border-right: 2px solid #172323;
 }
-#aside #nav li:nth-child(3n + 3) {
+#aside #nav li:nth-child(3), #aside #nav li:nth-child(5) {
   border: none;
   margin: 0;
 }
