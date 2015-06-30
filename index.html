@@ -1,19 +1,21 @@
 ---
 layout: default
+permalink: /projects/
 ---
 
-<h1>Articles</h1>
-{% if site.posts.size != 0 %}
-  <ul id="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h4><a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a> <small>{{ post.date | date: "%b %-d, %Y" }}</small></h4>
-      </li>
-    {% endfor %}
-  </ul>
-{% else %}
-  <h1>Hey!</h1>
-  <p>
-    I only just created this website. There are no articles yet but that should change shortly ;).
-  </p>
-{% endif %}
+<h1>Projects</h1>
+<p>
+  Below is an assortment of some of the projects I have finished and some that I am still working on.
+</p>
+<hr>
+<a href="http://andrewmilson.com/shifty-spritz/" target="_blank"><h4>Shifty Spritz</h4></a>
+<p>Shifty Spritz</a> is a Spritz-type speed reading extension for Chrome and Firefox.</p>
+<hr>
+<a href="https://play.google.com/store/apps/details?id=com.andrewmilson.incognitobrightnesscontrol" target="_blank"><h4>Incognito Brightness Control</h4></a>
+<p>Incognito Brightness Control is an Android app I made so my parents do not catch me on my phone at night. I have plans in the future to use my Arduino as a sensor connected to my phone so it can detect when there is activity outside my room and automatically turn off my screen!</p>
+<hr>
+<a href="http://mytimetab.com" target="_blank"><h4>Time Tab</h4></a>
+<p>This was the first web app I made. I was 15 at the time. I learnt a heck of a lot in the process. One of the things I learnt was how much I hate making and adding Privacy Policies, Terms Of Conditions and all that related jazz.</p>
+<hr>
+<a href="http://andrewmilson.com/protect-paigridge/" target="_blank"><h4>Protect Paigridge <small style="color: red;">WORK IN PROGRESS</small></h4></a>
+<p>Protect Paigridge is a game I am developing for Android, IOS and web. The main character is a Dugong. The web version is open-source and you can <a href="https://github.com/andrewmilson/protect-paigridge">view the code on GitHub</a></p>
