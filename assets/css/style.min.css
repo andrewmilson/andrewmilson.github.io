@@ -15,7 +15,7 @@
   margin: 0 10px 0 0;
   border-right: 2px solid #172323;
 }
-#aside #nav li.no-seperator {
+#aside #nav li:nth-child(2n + 2) {
   border: none;
   margin: 0;
 }
