@@ -1,7 +1,9 @@
 #aside
   background #4B7890
   color #172323
-  padding 30px 0
+  padding 200px 0 50px 0;
+  overflow hidden
+  z-index 1
 
   #nav
     list-style none
@@ -30,7 +32,13 @@
   #sexy-beast
     width 200px
     height 200px
-    position relative
+    position fixed
+    left 50%
+    transform translate(-50%, 0)
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    top: 10px;
     display block
     border-radius 50%
     border #172323 solid 5px

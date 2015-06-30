@@ -7,7 +7,7 @@
     (function() {
       var profilePictures = document.getElementsByClassName("profile"),
           frames = 10,
-          maxScrollTop = 30;
+          maxScrollTop = 80;
 
       window.onscroll = function() {
         [].forEach.call(profilePictures, function(profilePicture) {
@@ -17,12 +17,12 @@
           profilePicture.style.left = Math.max(Math.min((140 / maxScrollTop * window.pageYOffset).toFixed(0), 140), 0) + "px";
           profilePicture.style.top = Math.max(Math.min((190 / maxScrollTop * window.pageYOffset).toFixed(0), 190), 0) + "px";
           profilePicture.style.display = "block";
-          if (window.pageYOffset > 30 && profilePicture.id == "gazing") profilePicture.style.display = "none";
+          if (window.pageYOffset > maxScrollTop && profilePicture.id == "gazing") profilePicture.style.display = "none";
         });
       };
     })();
   </script>
-  <h3 id="title" class="text-center">Andrew Milson</h3>
+  <h3 id="title" class="text-center">Andrew Milson's playhouse</h3>
   <ul id="nav">
     <li class="no-seperator"><a href="/">PROJECTS</a></li>
     <li><a href="/about/">ABOUT</a><br></li>
