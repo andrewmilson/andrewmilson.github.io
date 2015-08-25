@@ -1,0 +1,96 @@
+html, body {
+  background: #4b7890;
+  color: rgb(23, 35, 35);
+  overflow-x: hidden;
+  text-align: center;
+  font-family: "Anton";
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 200%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  padding: 1.5% 0;
+  margin: 0;
+}
+
+#info {
+  font-size: 3vw;
+  position: absolute;
+  letter-spacing: 0.4vw;
+  width: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  padding: 0 0 1% 0;
+  margin: 0;
+}
+
+#wink {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#sexy-beast {
+  width: 40%;
+  /* height: 200px; */
+  padding: 20% 0;
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  border: #172323 solid 10px;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+}
+
+#sexy-beast img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* left: 0; */
+  /* top: 0; */
+  /* height: 100%; */
+}
+
+#money-shot {
+  -webkit-transform: translate(75%, 100%) scale(4.5) rotate(20deg);
+  -moz-transform: translate(75%, 100%) scale(4.5) rotate(20deg);
+  -ms-transform: translate(75%, 100%) scale(4.5) rotate(20deg);
+  -o-transform: translate(75%, 100%) scale(4.5) rotate(20deg);
+  transform: translate(75%, 100%) scale(4.5) rotate(20deg);
+}
+
+@media screen and (orientation:portrait) {
+  #info {
+    font-size: 4vw;
+  }
+
+  #sexy-beast {
+    width: 80%;
+    padding: 40% 0;
+  }
+}

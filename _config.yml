@@ -1,7 +1,0 @@
-# Site settings
-title: Andrew Milson
-url: http://andrewmilson.com
-exclude: ['README.md', 'source', 'node_modules', 'package.json', 'Gruntfile.js', '*.command']
-markdown: rdiscount
-permalink: /:year/:title
-pygments: true
