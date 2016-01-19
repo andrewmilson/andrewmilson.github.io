@@ -44,7 +44,7 @@ h1 {
 }
 
 #wink {
-  position: absolute;
+  position: fixed;
   width: 100%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);

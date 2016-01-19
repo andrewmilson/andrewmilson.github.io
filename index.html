@@ -26,51 +26,6 @@
   </script>
 </head>
 <body>
-  <div id="info" class="text-center">
-    <h1 class="text-center">ANDREW MILSON</h1>
-    <div>
-      <a target="_blank" href="https://nz.linkedin.com/in/andrewmilson" class="social-link">
-        <span class="socicon">j</span>
-        ANDREWMILSON
-      </a>
-      /
-      <a target="_blank" href="https://twitter.com/andrewmilson" class="social-link">
-        <span class="socicon">a</span>
-        ANDREWMILSON
-      </a>
-    </div>
-    <div>
-      <a target="_blank" href="https://github.com/andrewmilson" class="social-link">
-        <span class="socicon">Q</span>
-        ANDREWMILSON
-      </a>
-      /
-      <a target="_blank" href="https://instagram.com/andrewmilson/" class="social-link">
-        <span class="socicon">x</span>
-        ANDREWMILSON
-      </a>
-    </div>
-    <div>
-      <a target="_blank" href="javascript:mailtoManager('andrew.j.milson')" class="social-link">
-        <span class="socicon">@</span>
-        EMAIL
-      </a>
-      /
-      <a target="_blank" href="http://stackoverflow.com/users/1170128/andrewmilson" class="social-link">
-        <span class="socicon">(</span>
-        ANDREWMILSON
-      </a>
-    </div>
-    <hr>
-    <h1>RECENT PROJECTS</h1>
-    <div id="projects-text">
-      <a target="_blank" href="http://instantadventure.co">INSTANT ADVENTURE</a> /
-      <a target="_blank" href="https://workout.land">WORKOUT LAND</a><br>
-      <a target="_blank" href="http://andrewmilson.com/protect-paigridge/">PROTECT PAIGRIDGE</a> /
-      <a target="_blank" href="http://andrewmilson.com/shifty-spritz/">SPEEDY READIE</a>
-    </div>
-  </div>
-
   <div id="wink">
     <a href="/" id="sexy-beast" title="HOME">
       <img class="profile" id="money-shot" src="sexy-beast-2.jpg" alt="Picture of me">
@@ -85,9 +40,9 @@
         var frames = 10;
         var maxScrollTop = height / 4 - (height / 7);
 
-        $body.style.height = window.innerHeight * 2 + 'px';
+        var documentHeight = window.innerHeight * 2;
+        $body.style.height = documentHeight + 'px';
         document.getElementById('wink').style.top = window.innerHeight * 0.5 + 'px';
-        document.getElementById('info').style.top = window.innerHeight * 1.5 + 'px';
 
         window.onscroll = function() {
           $animatePic.style.webkitTransform = $animatePic.style.MozTransform = $animatePic.style.OTransform = $animatePic.style.msTransform =
@@ -95,7 +50,12 @@
             'scale(' + Math.max(Math.min((1 + 3.5 / maxScrollTop * window.pageYOffset).toFixed(2), 4.5), 1) + ') ' +
             'rotate(' + Math.max(Math.min((20 / maxScrollTop * window.pageYOffset).toFixed(2), 20), 0) + 'deg)';
           $animatePic.style.display = "block";
-          if (window.pageYOffset > maxScrollTop && $animatePic.id == "gazing") $animatePic.style.display = "none";
+
+          if (window.pageYOffset + window.innerHeight >= documentHeight)
+            location.href = "https://nz.linkedin.com/in/andrewmilson";
+
+          if (window.pageYOffset > maxScrollTop && $animatePic.id == "gazing")
+            $animatePic.style.display = "none";
         };
       })();
     </script>
